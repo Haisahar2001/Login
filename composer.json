@@ -1,0 +1,13 @@
+{ 
+    "name": "user/educacion-cristiana", 
+    "description": "descripcion", 
+    "autoload": {  
+        "psr-4": { 
+            "App\\": "app/" 
+        } 
+    }, 
+  "require": { 
+    "ext-pdo": "*",
+    "setasign/fpdf": "^1.8"
+  } 
+} 
