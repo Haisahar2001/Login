@@ -5,9 +5,12 @@
         "psr-4": { 
             "App\\": "app/" 
         } 
-    }, 
-  "require": { 
+    },
+  "config": {
+    "platform-check": false
+  },  "require": {
     "ext-pdo": "*",
-    "setasign/fpdf": "^1.8"
+    "setasign/fpdf": "^1.8",
+    "cboden/ratchet": "^0.4.4"
   } 
 } 
