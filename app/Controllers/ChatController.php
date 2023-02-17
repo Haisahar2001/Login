@@ -17,4 +17,18 @@ class ChatController extends BaseController
         ]);
     }
 
+    public function contadorAction()
+    {
+        View::render('contador.php', [
+            'user'=> Session::get('user')
+        ]);
+    }
+
+    public function envioarchivoAction()
+    {
+        View::render('envio_archivo.php', [
+            'user'=> Session::get('user')
+        ]);
+    }
+
 }
